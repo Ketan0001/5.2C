@@ -50,7 +50,7 @@ def exitprogram():
 		GPIO.cleanup()
 	win.quit()
 
-win.title("GUI by Rahul")
+win.title("GUI by Ketan")
 win.geometry('800x480')
 
 exitbutton = Button(win,text = "Exit", font =myFont, command = exitProgram, height = 2, width = 6)
